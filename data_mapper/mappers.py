@@ -181,6 +181,19 @@ class BaseMapper():
                 if existing_obj is not None:
                     obj.id = existing_obj.id
 
+    def import_data(self, source=None):
+        """Pipeline all data from source to database.
+
+        Args:
+            source (file or str, optional):
+                Source of data that needs to be mapped onto models.
+                May be given during init.
+
+        """
+        self.prepare_source(source=source)
+        self.extract()
+        self.save()
+
 
 class XmlMapper(BaseMapper):
 
