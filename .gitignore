@@ -5,3 +5,7 @@ __pycache__/
 .coverage
 .pytest_cache/
 local.py
+build/
+dist/
+*.egg-info/
+*.egg
