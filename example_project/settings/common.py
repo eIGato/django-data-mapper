@@ -118,3 +118,43 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Logging
+LIB_LOGGER = {
+    'handlers': [
+        'console',
+        'file',
+    ],
+    'level': 'INFO',
+    'propagate': True,
+}
+APP_LOGGER = LIB_LOGGER.copy()
+APP_LOGGER['level'] = 'DEBUG' if DEBUG else 'INFO'
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '[%(asctime)s] %(levelname)s %(name)s: %(message)s'
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/dev/null',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': LIB_LOGGER,
+        'data_mapper': APP_LOGGER,
+        'example_project': APP_LOGGER,
+        'example_app': APP_LOGGER,
+    },
+}

@@ -1,1 +1,8 @@
+# Web libs
 django>=2.0,<2.1
+
+# Test libs
+coverage>=4.5,<4.6
+pytest>=3.6,<3.7
+pytest-cov>=2.5,<2.6
+pytest-django>=3.3,<3.4
