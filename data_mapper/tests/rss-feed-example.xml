@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>vc.ru: все новости и статьи</title>
+        <description>vc.ru — бизнес, технологии, идеи, модели роста</description>
+        <link>https://vc.ru/</link>
+        <image>
+            <url>https://vc.ru/static/build/vc.ru/images/share-pic-720.png</url>
+            <title>vc.ru: все новости и статьи</title>
+            <link>https://vc.ru/</link>
+        </image>
+        <generator>RSS for Osnova</generator>
+        <lastBuildDate>Mon, 16 Jul 2018 00:49:29 +0300</lastBuildDate>
+        <atom:link href="https://vc.ru/rss/all" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 15 Jul 2018 22:21:50 +0300</pubDate>
+        <copyright><![CDATA[© 2017 ИД «Комитет»]]></copyright>
+        <language><![CDATA[ru-RU]]></language>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <ttl>10</ttl>
+        <item>
+            <title><![CDATA[Лучшее за неделю: новая техника «Яндекса», как прожить без пенсии, история российских Wi-Fi-радиоприёмников и другое]]></title>
+            <description><![CDATA[Подборка новостей и историй.]]>&lt;img src=&quot;https://leonardo.osnova.io/9755b196-a98e-4561-07f5-4e2ae30e8119/&quot; width=&quot;1680&quot; height=&quot;1259&quot; alt /&gt;</description>
+            <link>https://vc.ru/41945-luchshee-za-nedelyu-novaya-tehnika-yandeksa-kak-prozhit-bez-pensii-istoriya-rossiyskih-wi-fi-radiopriemnikov-i-drugoe?from=rss</link>
+            <guid isPermaLink="false">41945</guid>
+            <dc:creator><![CDATA[Andrey Frolov]]></dc:creator>
+            <pubDate>Sun, 15 Jul 2018 22:21:50 +0300</pubDate>
+            <comments>https://vc.ru/41945-luchshee-za-nedelyu-novaya-tehnika-yandeksa-kak-prozhit-bez-pensii-istoriya-rossiyskih-wi-fi-radiopriemnikov-i-drugoe?from=rss#comments</comments>
+            <author>Andrey Frolov</author>
+            <enclosure url="https://leonardo.osnova.io/518ca8d5-5bf4-93d8-6610-5ac586e995c6/" length="69692" type="image/jpeg"/>
+            <enclosure url="https://leonardo.osnova.io/8cb387ed-9e77-7588-368d-62c73e82dbcf/" length="2331107" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Почему образовательная система — это пустая трата времени и денег]]></title>
+            <description><![CDATA[Ключевые идеи не изданной на русском книги Брайана Каплана «Дело против образования» — о подводных камнях современного образования, всевозможных мифах о его пользе и о том, как оно постепенно становится фикцией.]]>&lt;img src=&quot;https://leonardo.osnova.io/35e6a7be-8642-cd85-43d9-6719b537580a/&quot; width=&quot;1176&quot; height=&quot;1154&quot; alt /&gt;</description>
+            <link>https://vc.ru/41940-pochemu-obrazovatelnaya-sistema-eto-pustaya-trata-vremeni-i-deneg?from=rss</link>
+            <guid isPermaLink="false">41940</guid>
+            <dc:creator><![CDATA[Andrey Frolov]]></dc:creator>
+            <pubDate>Sun, 15 Jul 2018 16:05:48 +0300</pubDate>
+            <comments>https://vc.ru/41940-pochemu-obrazovatelnaya-sistema-eto-pustaya-trata-vremeni-i-deneg?from=rss#comments</comments>
+            <author>Andrey Frolov</author>
+            <enclosure url="https://leonardo.osnova.io/35e6a7be-8642-cd85-43d9-6719b537580a/" length="1199255" type="image/jpeg"/>
+        </item>
+    </channel>
+</rss>
